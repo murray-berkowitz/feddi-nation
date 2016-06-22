@@ -1,0 +1,55 @@
+$primary-brown: #6b6453;
+$secondary-red: #6b535a;
+$alt-blue: #535a6b;
+$alt-green: #536b64;
+
+.col {
+	margin-left: 1%;
+}
+
+@for $i from 2 through 11 {
+	.span#{$i} {
+		$x : 12/$i;
+		width: ((100-$x+1)/$x)*1%;
+	}
+}
+
+
+body {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.hero {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.wrapper {
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0 auto;
+	background-color: rgba(#e9e8e8, .9);
+	z-index: 9999;
+}
+
+.logo {
+	padding:8px;
+}
+
+.herobg {
+	background-image: url(img/feddination.png);
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	top:0px;
+	left:0px;
+	z-index:1;
+}

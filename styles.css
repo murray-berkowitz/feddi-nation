@@ -1,0 +1,68 @@
+.col {
+  margin-left: 1%; }
+
+.span2 {
+  width: 15.83333%; }
+
+.span3 {
+  width: 24.25%; }
+
+.span4 {
+  width: 32.66667%; }
+
+.span5 {
+  width: 41.08333%; }
+
+.span6 {
+  width: 49.5%; }
+
+.span7 {
+  width: 57.91667%; }
+
+.span8 {
+  width: 66.33333%; }
+
+.span9 {
+  width: 74.75%; }
+
+.span10 {
+  width: 83.16667%; }
+
+.span11 {
+  width: 91.58333%; }
+
+body {
+  font-family: 'Shadows Into Light', cursive; }
+
+.hero {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: rgba(233, 232, 232, 0.9);
+  z-index: 9999; }
+
+.logo {
+  padding: 8px; }
+
+.herobg {
+  background-image: url(img/feddination.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 1; }
+
+/*# sourceMappingURL=styles.css.map */
